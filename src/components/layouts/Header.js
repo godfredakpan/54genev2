@@ -1,5 +1,5 @@
 import React from 'react';
-import {Bootstrap, Grid, Row, Col, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import Logo from '../../img/logo.png';
 import '../../App.css'
 // console.log(Logo);
@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <Navbar sticky="top"   collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand className="brand-image" href="#home"><img src={Logo} width="150px"/></Navbar.Brand>
+        <Navbar.Brand className="brand-image" href="#home"><img alt="54gene" src={Logo} width="150px"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

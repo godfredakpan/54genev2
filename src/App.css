@@ -12,15 +12,78 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.zarah{
+  background-image: url('./img/zarah.png');
+  background-size: cover;
+  
+}
+.about{
+  padding:70px;
+}
+.quote{
+  color:#3f4c77;
+  max-width: 20rem;
+  margin-left: 80px;
+  font-style: italic;
+}
+.Ellipse{
+  width: 103px;
+  height: 103px;
+  border: solid 1px #707070;
+  border-radius: 50%;
+}
+.build-up{
+  margin-bottom:100px;
+  margin-top:50px;
+}
+.build{
+  text-align: left;
+  /* font-size:20px; */
+}
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
+  /* margin-top: 150px !important; */
+  background-image: url('./img/LandingPageImage.png');
+  /* background-size: 100%; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: #23232f
+
+  ;
+}
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 0px !important;
+  padding:30px;
+}
+.vision{
+  background-color: #30499b;
+  padding: 50px;
   color: white;
+}
+.vision-text{
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.vision-text-small{
+  font-size: 14px;
+}
+.box{
+  max-width: 500px;
+  color: #23232f;
+}
+
+.small{
+  font-size:17px !important;
+}
+.black{
+  color:black !important;
+  margin-right:25px;
 }
 .App-link {
   color: #61dafb;
@@ -42,6 +105,9 @@
 
 .brand-image{
   margin-left:50px;
+}
+.justify{
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
